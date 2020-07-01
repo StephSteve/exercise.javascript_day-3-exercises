@@ -1,6 +1,15 @@
 function isNumber() {
     
     var userString = window.prompt("Please enter a Number");
-    isNumber(userString);
+    if(userString = typeof(Number)) {
+            console.log(true);
+    } else{
+        console.log(false);
+    };
 }
-console.log(userString.isNumber);
+
+
+function convertToNumber() {
+
+
+}
