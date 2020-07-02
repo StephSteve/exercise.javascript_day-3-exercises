@@ -1,11 +1,9 @@
 function isNumber() {
-    
-    var userString = window.prompt("Please enter a Number");
-    if(userString = Number) {
-            console.log(true);
-    } else{
-        console.log(false);
-    };
+    let userstring = "";
+     userString = window.prompt("Please enter a Number");
+    if( isNaN(userstring)) {
+            throw Error("Must be a number");
+    } 
 
 }
 
