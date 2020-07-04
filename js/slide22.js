@@ -8,7 +8,9 @@ function isNumber() {
 }
 
 
-//function convertToNumber() {
+function convertToNumber() {
+    let  let num = "";
+    num = window.prompt("Please enter a Number");
+    Number(num);
 
-
-//}
+}
